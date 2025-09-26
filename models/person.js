@@ -8,7 +8,9 @@ const personSchema = new mongoose.Schema({
   mobile : { type: String, required: true},
   email : { type: String, required: true, unique: true},
   addredd: { type: String},
-  salary: { type: Number, required: true}
+  salary: { type: Number, required: true},
+  username: { type:String,required:true},
+  password: {type:String,required:true}
 });
 
 //person model
